@@ -18,6 +18,7 @@ public class LogicScript : MonoBehaviour {
 
     public void restartGame() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Debug.Log("Screen reloaded");
     }
 
     public void gameOver() {
