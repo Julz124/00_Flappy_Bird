@@ -610,6 +610,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myRigidBody: {fileID: 1261016127}
   flapStrength: 12
+  logic: {fileID: 0}
+  birdIsAlive: 1
 --- !u!58 &1261016129
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -888,6 +890,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerScore: 0
   ScoreText: {fileID: 1282791878}
+  gameOverScreen: {fileID: 1021674879}
 --- !u!4 &1700462164
 Transform:
   m_ObjectHideFlags: 0
